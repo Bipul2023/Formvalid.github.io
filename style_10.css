@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient( to left,rgb(106, 1, 158),rgb(156, 6, 255) );
+}
+
+.form-valid{
+    border: 2px solid rgb(1, 92, 1);
+    box-shadow: 0px 2px 5px rgb(1, 83, 1);
+}
+
+.form-invalid{
+    border: 2px solid rgb(219, 2, 2);
+    box-shadow: 0px 2px 5px rgb(204, 3, 3);
+}
+
+.tvalid{
+    color: rgb(1, 92, 1);
+}
+
+.tinvalid{
+    color: red;
+}
+
+.card{
+    width: 500px;
+    margin: auto;
+    background: linear-gradient(to top, #1ad5e2 37%, #35f0e0 65%);
+    box-shadow: 2px 5px 10px rgb(66, 66, 66);
+    font-weight: bold;
+}
+
+form input{
+    box-shadow: 0px 2px 5px rgb(27, 27, 27);
+}
+
+form label{
+    text-shadow: 0px 0px 1px rgb(66, 66, 66);
+}
+
+.btn{
+    box-shadow: 0 1px 4px rgb(30, 31, 31);
+    color: white;
+    background: linear-gradient(to right,rgb(89, 0, 255),rgb(132, 0, 255));
+}
+
+.btn:hover{
+    color: white;
+    background: linear-gradient(to right,rgb(132, 0, 255),rgb(89, 0, 255));
+}
+
+@media screen  and (max-width:600px ){
+    .card{
+        width: 400px;
+    }
+}
+
+@media screen  and (max-width:500px ){
+    .card{
+        width: 350px;
+    }
+}
